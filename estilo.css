@@ -608,18 +608,9 @@
             border-radius: 20px;
             border: none;
             border: 1px solid #919191;
-            font-family: 'Orbitron', sans-serif;
-            font-weight: 400;
-        }
-
-        #contacto .contenedor-form input:focus,
-        #contacto .contenedor-form textarea:focus {
-            padding: 20px;
-            border-radius: 20px;
-            border: none;
-            border: 1px solid #919191;
             font-family: sans-serif;
             font-weight: 400;
+            font-size: 13px;
         }
         
         #contacto .contenedor-form .mitad input {
@@ -640,10 +631,11 @@
             text-decoration-thickness: 5px;
         }
         
-        #contacto .btn-enviar {
+        #contacto .contenedor-form .btn-enviar {
             display: block;
             margin: auto;
             cursor: pointer;
+            color: black;
             font-family: var(--main-font);
             transition: .5s;
             padding: 10px 15px !important;
@@ -664,6 +656,10 @@
             padding: 30px 0;
         }
         
+        footer p {
+            font-family: 'Orbitron', sans-serif; 
+        }
+
         footer a {
             text-decoration: none;
             color: #fff;
@@ -702,7 +698,13 @@
                 display: block;
             }
             #inicio .contenido .presentacion h2 {
-                font-size: 40px;
+                font-size: 30px;
+                margin-top: 15px;
+                margin-left: 10px;
+            }
+
+            #inicio .contenido .presentacion .logo {
+                top: 1.5px;
             }
 
             #inicio .contenido .presentacion .bienvenida {
@@ -710,9 +712,14 @@
                 margin-bottom: 0px;
             }
 
+            #inicio .contenido .presentacion .descripcion {
+                font-size: 13px;
+            }
+
             #inicio .contenido .presentacion a {
                 text-align: center;
                 padding: 8px;
+                font-size: 13px;
             }
             /* seccion SOBRE MI */
             #sobremi {
@@ -734,6 +741,11 @@
                 font-size: 25px;
                 text-align: center;
             }
+
+            #sobremi .sobremi p {
+                font-size: 12px;
+            }
+
             /* seccion MIS SERVICIOS */
             #servicios {
                 padding: 50px 15px;
@@ -788,6 +800,27 @@
             }
             #contacto .contenedor-form .mitad input {
                 width: 100%;
-                margin-bottom: 15px;
+                margin-bottom: 12px;
+            }
+            #contacto .contenedor-form input,
+            #contacto .contenedor-form textarea {
+            font-size: 10px;
+            }
+
+            /* seccion FOOTER */ 
+            footer {
+                height: 60px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            footer p {
+                font-size: 12px;
+            }
+
+            footer .redes {
+                margin-left: 0px;
+                display: inline-block;
+                margin-top: 0px;
             }
         }
