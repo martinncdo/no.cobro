@@ -725,6 +725,7 @@
                 font-size: 13px;
             }
 
+
             #inicio .contenido .presentacion a {
                 text-align: center;
                 padding: 8px;
@@ -783,13 +784,19 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: space-evenly;
+
             }
 
             #portfolio .fila {
                 display: block;
                 margin: 10px;
+                margin-bottom: 0;
             }
+
+            #portfolio .fila2 {
+                margin-top: 0;
+            }
+
             #portfolio .fila .proyecto {
                 margin: 10px auto;
             }
