@@ -804,6 +804,7 @@
 
             #portfolio .intercambios {
                 margin-left: 0px;
+                display: inline;
             }
 
             #portfolio .descripcion {
