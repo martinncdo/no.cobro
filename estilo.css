@@ -165,6 +165,10 @@
         /* *********************/
         /* seccion S O B R E  M I */
         /* *********************/
+
+        .resaltador {
+            color: var(--main-color);
+        }
         
         #sobremi {
             max-width: 1100px;
@@ -672,6 +676,11 @@
         /* *********************/
         
         @media screen and (max-width: 800px) {
+            
+            .resaltador {
+                color: var(--main-color);
+            }
+            
             .redes {
                 display: none;
             }
@@ -734,6 +743,14 @@
             #sobremi .contenedor-foto img {
                 padding: 8px;
             }
+
+            .sobremi {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+
             #sobremi .sobremi .titulo-seccion {
                 text-align: center;
             }
@@ -763,7 +780,12 @@
             /* seccion PORTFOLIO */
             #portfolio {
                 padding: 50px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
             }
+
             #portfolio .fila {
                 display: block;
                 margin: 10px;
@@ -773,12 +795,15 @@
             }
 
             #portfolio .logo {
-                margin-left: 10px;
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+
             }
 
             #portfolio .intercambios {
-                margin-left: 3px;
                 padding: 5px 1px;
+                display: inline-block;
             }
 
 
@@ -811,7 +836,7 @@
             footer {
                 height: 60px;
                 padding-top: 10px;
-                padding-bottom: 10px;
+                padding-bottom: 20px;
             }
             
             footer p {
