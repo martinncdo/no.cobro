@@ -792,26 +792,20 @@
                 margin-bottom: 0;
             }
 
-            #portfolio .fila2 {
-                margin-top: 0;
-            }
-
             #portfolio .fila .proyecto {
                 margin: 1rem auto;
             }
 
             #portfolio .logo {
+                margin-left: 10px;
                 display: inline-block;
-                margin-left: 70px;
-                margin-right: auto;
-
+                margin-right: 0;
             }
 
             #portfolio .intercambios {
-                padding: 5px 1px;
-                display: inline-block;
+                margin-left: 0px;
+                display: inline;
             }
-
 
             #portfolio .descripcion {
                 margin: 1ch;
